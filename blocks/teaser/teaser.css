@@ -1,0 +1,35 @@
+.teaser.block {
+    border-radius: 0.3125rem;
+    background-color: whitesmoke;
+    width: 50%;
+    box-shadow: 0 0.25rem 0.5rem 0 rgba(0,0,0,0.2);
+}
+
+.teaser img {
+    /* border: 2px solid salmon; */
+    border-top-left-radius: 0.3125rem;
+    border-top-right-radius: 0.3125rem;
+    border-bottom-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.text123 {
+    /* border: 2px solid green; */
+    text-align: center;
+}
+
+.text123 h5 {
+    font-size: .8rem;
+
+}
+
+.text123 h4 {
+    font-size: 1rem;
+
+}
+
+.text123 p:not(.button-container) {
+    max-width: 350px;
+    margin: auto;
+    font-size: .778rem;
+}
