@@ -1,22 +1,19 @@
 .teaser-wrapper {
     width: 50%;
 }
+
 .teaser.block {
     border-radius: 0.3125rem;
-    background-color: whitesmoke;
-    box-shadow: 0 0.25rem 0.5rem 0 rgba(0,0,0,0.2);
+    background-color: #f5f5f5;
+    box-shadow: 0 0.25rem 0.5rem 0 #0003;
 }
 
 body > main > div:nth-child(5) > div > div > div:nth-child(1) > div {
     height: 500px;
-    width: 660px;
 }
 
 .teaser img {
-    border-top-left-radius: 0.3125rem;
-    border-top-right-radius: 0.3125rem;
-    border-bottom-left-radius: 0;
-    border-bottom-left-radius: 0;
+    border-radius: 0.3125rem 0.3125rem 0 0;
     height: 100%;
     width: 100%;
     object-fit: fill;
@@ -28,12 +25,10 @@ body > main > div:nth-child(5) > div > div > div:nth-child(1) > div {
 
 .text123 h5 {
     font-size: .8rem;
-
 }
 
 .text123 h4 {
     font-size: 1rem;
-
 }
 
 .text123 p:not(.button-container) {
