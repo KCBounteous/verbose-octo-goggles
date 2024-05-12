@@ -35,5 +35,7 @@ main .hero-container {
 
 
 #welcome-to-my-travel-blog {
-  color: springgreen;
+  color: black;
+  text-shadow: 2px 7px 5px rgba(0,0,0,0.3), 
+    0px 2px 5px rgba(255,255,255,0.5);
 }

@@ -1,8 +1,15 @@
+.teaser-wrapper {
+    width: 50%;
+}
 .teaser.block {
     border-radius: 0.3125rem;
     background-color: whitesmoke;
-    width: 50%;
     box-shadow: 0 0.25rem 0.5rem 0 rgba(0,0,0,0.2);
+}
+
+body > main > div:nth-child(5) > div > div > div:nth-child(1) > div {
+    height: 500px;
+    width: 660px;
 }
 
 .teaser img {
@@ -11,6 +18,9 @@
     border-top-right-radius: 0.3125rem;
     border-bottom-left-radius: 0;
     border-bottom-left-radius: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
 }
 
 .text123 {
